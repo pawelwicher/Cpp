@@ -1,0 +1,33 @@
+# Project: Slownik
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = Program_slownik.o Slownik.o $(RES)
+LINKOBJ  = Program_slownik.o Slownik.o $(RES)
+LIBS =  -L"C:/DEV-CPP/lib"  
+INCS =  -I"C:/DEV-CPP/include" 
+CXXINCS =  -I"C:/DEV-CPP/lib/gcc/mingw32/3.4.2/include"  -I"C:/DEV-CPP/include/c++/3.4.2/backward"  -I"C:/DEV-CPP/include/c++/3.4.2/mingw32"  -I"C:/DEV-CPP/include/c++/3.4.2"  -I"C:/DEV-CPP/include" 
+BIN  = Slownik.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Slownik.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "Slownik.exe" $(LIBS)
+
+Program_slownik.o: Program_slownik.cpp
+	$(CPP) -c Program_slownik.cpp -o Program_slownik.o $(CXXFLAGS)
+
+Slownik.o: Slownik.cpp
+	$(CPP) -c Slownik.cpp -o Slownik.o $(CXXFLAGS)
