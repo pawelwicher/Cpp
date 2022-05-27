@@ -1,0 +1,11 @@
+	
+	
+	Uprzejmnie informuje sie, ze data zwrotu dla pozycji:
+	
+	id: @1
+	tytul: @2
+	autor: @3
+
+	minela dnia @4r. W zwiazku z tym zawiadamia sie
+	czytelnika @5 o potrzebie niezwlocznego
+	zwrotu w/w pozycji pod grozba kary pienieznej.

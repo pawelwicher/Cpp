@@ -1,0 +1,11 @@
+
+  Histogram dla pozycji wg liczby wypozyczen (2)
+
+Pozycji o liczbie wypozyczen <= 100 jest 0
+Pozycji o liczbie wypozyczen > 100 i <= 300 jest 1
+Pozycji o liczbie wypozyczen > 300 i <= 500 jest 2
+Pozycji o liczbie wypozyczen > 500 i <= 700 jest 2
+Pozycji o liczbie wypozyczen > 700 i <= 900 jest 1
+Pozycji o liczbie wypozyczen > 900 jest 1
+
+Srednia: 619.857143

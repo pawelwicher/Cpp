@@ -1,0 +1,11 @@
+	
+	
+	Uprzejmnie informuje sie, ze data zwrotu dla pozycji:
+	
+	id: 2
+	tytul: Jezyk C++
+	autor: Bjarne Stroustrup
+
+	minela dnia 14/4/2007r. W zwiazku z tym zawiadamia sie
+	czytelnika Zygmunt Abacki o potrzebie niezwlocznego
+	zwrotu w/w pozycji pod grozba kary pienieznej.
